@@ -55,7 +55,7 @@ function AddProductToCart({ user, productId }) {
             }
           : user
           ? {
-              color: "orange",
+              color: "green",
               content: "Add to Cart",
               icon: "plus cart",
               loading,

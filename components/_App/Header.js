@@ -27,7 +27,7 @@ function Header({user}) {
           <Menu.Item header active={isActive("/")}>
             <Image
               size="mini"
-              src="/static/logo.svg"
+              src="/static/bag.svg"
               style={{ marginRight: "1em" }}
             ></Image>
           </Menu.Item>
