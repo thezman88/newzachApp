@@ -79,7 +79,7 @@ function CreateProduct() {
   return (
     <>
       <Header as="h2" block>
-        <Icon name="add" color="orange" />
+        <Icon name="add" color="blue" />
         Create New Product
       </Header>
       <Form loading={loading} error={Boolean(error)} success={success} onSubmit={handleSubmit}>

@@ -49,14 +49,14 @@ function CartItemList({ products, user, handleRemoveFromCart, success }) {
 
   if (products.length === 0) {
     return (
-      <Segment secondary color="teal" inverted textAlign="center" placeholder>
+      <Segment secondary color="green" inverted textAlign="center" placeholder>
         <Header icon>
           <Icon name="shopping basket" />
           No products in your cart. Add some!
         </Header>
         <div>
           {user ? (
-            <Button color="orange" onClick={() => router.push("/")}>
+            <Button color="blue" onClick={() => router.push("/")}>
               View Products
             </Button>
           ) : (

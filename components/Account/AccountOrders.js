@@ -56,14 +56,14 @@ function AccountOrders({orders}) {
     Order History
   </Header>
   {orders.length === 0 ? (
-    <Segment inverted tertiary color='grey' textAlign='center'>
+    <Segment inverted tertiary color='green' textAlign='center'>
       <Header icon>
         <Icon name='copy outline'/>
         No past orders.
       </Header>
       <div>
         <Button onClick={()=> router.push('/')}
-        color='orange'>
+        color='blue'>
           View Products
         </Button>
       </div>

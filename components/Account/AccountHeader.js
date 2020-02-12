@@ -3,9 +3,9 @@ import formatDate from '../../utils/formatDate'
 
 function AccountHeader({role, email,name, createdAt}) {
   return(
-    <Segment secondary inverted color='violet'>
+    <Segment secondary inverted color='green'>
       <Label
-        color='teal'
+        color='blue'
         size='large'
         ribbon
         icon='privacy'

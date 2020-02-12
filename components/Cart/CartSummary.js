@@ -35,7 +35,7 @@ function CartSummary({ products, handleCheckout, success }) {
           <Button
             icon="cart"
             disabled={isCartEmpty || success}
-            color="teal"
+            color="blue"
             floated="right"
             content="Checkout"
           />
